@@ -1,0 +1,88 @@
+a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+.container{
+  width: 95%;
+  margin: auto;
+}
+
+/* Styles of Navigation*/
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 20px 0;
+    background-color: #689626;
+  }
+  
+  .nav-brand{
+    width: 50px;
+  }
+  
+  /* Nav Left*/
+  .nav-main ul {
+    display: flex;
+    
+  }
+  
+  .nav-main ul li{
+    padding: 10px;
+  }
+  
+  .nav-main ul li a{
+    padding: 2px;
+  }
+  
+  .nav-main ul li a:hover{
+  
+    border-bottom: 2px solid black;
+  
+  }
+  .nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  @media (max-width:700px){
+
+    .menu-btn{
+        display: block;
+    }
+
+    .nav-main ul.nav-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: 100%;
+        transform: translateX(-400px);
+        transition: transform .5s ease-in-out;
+        padding: 30px;
+        opacity: .9;
+    }
+
+    .nav-main ul.nav-menu.show{
+        transform: translateX(-20px);
+    }
+
+    .nav-main ul.nav-menu-right{
+        margin-right: 30px;
+    }
+    .nav-main ul.nav-menu li{
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .news-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

@@ -11,19 +11,19 @@ export default function Navigation() {
                 <ul className="nav-menu show">
 
                     <li> 
-                    <Link to="/" >INICIO</Link>
+                    <Link to="/smooking-nature/" >INICIO</Link>
                     </li>
 
                     <li>
-                        <Link to="/about" >¿QUIÉNES SOMOS?</Link>
+                        <Link to="/smooking-nature/about" >¿QUIÉNES SOMOS?</Link>
                     </li>
 
                     <li>
-                        <Link to="/product" >PRODUCTOS</Link>
+                        <Link to="/smooking-nature/product" >PRODUCTOS</Link>
                     </li>
 
                     <li>
-                        <Link to="/contact" >CONTÁCTANOS</Link>
+                        <Link to="/smooking-nature/contact" >CONTÁCTANOS</Link>
                     </li>
 
                 </ul>

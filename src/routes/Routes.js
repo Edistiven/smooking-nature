@@ -9,11 +9,11 @@ function Routes() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Home}></Route>
-        <Route exact path="/inicio" component={Navegation}></Route>
-        <Route exact path="/product" component={Product}></Route>
-        <Route exact path="/contact" component={Contact}></Route>
-        <Route exact path="/about" component={About}></Route>
+        <Route exact path="/smooking-nature/" component={Home}></Route>
+        <Route exact path="/smooking-nature/inicio" component={Navegation}></Route>
+        <Route exact path="/smooking-nature/product" component={Product}></Route>
+        <Route exact path="/smooking-nature/contact" component={Contact}></Route>
+        <Route exact path="/smooking-nature/about" component={About}></Route>
         {/* <Route exact path="/user" component={User}></Route>  */}
         
       </Switch>

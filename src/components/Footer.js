@@ -5,8 +5,8 @@ export default function Footer() {
     return (
         <div>
             <div className="footer-links">
-                <div className="footer-container">
-                    <ul>
+                <div className="footer-container-page">
+                    <ul className="footer-ul">
                         <li><h5 >ACERCA DE NOSOTROS</h5></li>
                         <li>
                             <h6> <i className="fas fa-map-marker-alt"></i> Ubicación </h6>
@@ -28,8 +28,7 @@ export default function Footer() {
                         </li>
                     </ul>
 
-                    
-                    <ul>
+                    <ul className="footer-ul">
                         <li> 
                             <h5>Title One </h5>
                         </li>
@@ -48,7 +47,7 @@ export default function Footer() {
 
                     </ul>
 
-                    <ul>
+                    <ul className="footer-ul">
                         <li> 
                             <h5>Redes Sociales </h5>
                         </li>
@@ -64,7 +63,6 @@ export default function Footer() {
                         <h6>
                         <i className="fab fa-instagram"></i> Smooking Nature </h6>
                         </li>
-                      
 
                     </ul>
     
@@ -72,7 +70,7 @@ export default function Footer() {
 
             </div>
 
-            <div className="footer">
+            <div className="footer-development">
                 <h6>&copy; Smooking Footer - Todos los derechos Reservados. Desarrollo Web</h6>
             </div>
         </div>

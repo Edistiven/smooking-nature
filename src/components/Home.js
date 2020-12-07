@@ -11,13 +11,9 @@ import tomato from '../img/tomato.jpeg';
 export default function Home() {
 
     return (
-
         <div>
-             <div className="menu-btn">
-                     <i className="fas fa-bars"></i>
-             </div>
                  <Navegation></Navegation>
-             <div className="container">
+             <div className="container-home">
                 
                  <header className="showcase">
                      <Slide></Slide>
@@ -46,7 +42,7 @@ export default function Home() {
                      </div>
                      <hr></hr>
                      <br/>
-                     <h2> - Nuestros Productos</h2>
+                     <h3> Nuestros Productos</h3>
                      <div className="news-cards">
 
                          <div className="card1">
@@ -89,10 +85,9 @@ export default function Home() {
 
                      <section className="cards-banner-two">
                          <div className="content">
-
                              <h2>¿Desea hacernos alguna consulta?</h2>
                              <p>Para mejorar nuestro servicio nos contactamos directamente con usted para cualquier información.</p>
-                             <Link to="/smooking-nature/contact" className="btn">Click Aqui <i className="fas fa-angle-double-right"></i> </Link>
+                             <Link to="/smooking-nature/contact" className="btn-card-two">Click Aqui <i className="fas fa-angle-double-right"></i> </Link>
                          </div>
                      </section>
              </div>

@@ -12,14 +12,9 @@ body{
     font-family: 'Oswald', sans-serif;
     
 }
-.menu-btn{
-    position: absolute;
-    cursor: pointer;
-    top: 15px;
-    right: 30px;
-    z-index: 2;
-    font-size: 1.5rem;
-    /* display: none;  */
+.container-home{
+    width: 95%;
+    margin: auto;
 }
 /* SHOWCASE */
 .showcase{
@@ -31,17 +26,7 @@ body{
     justify-content: flex-end;
 }
 
-.menu-btn{
-    position: absolute;
-    cursor: pointer;
-    top: 15px;
-    right: 30px;
-    z-index: 2;
-    font-size: 1.5rem;
-    display: none;
-}
-
-.btn {
+.btn-card-two {
     cursor: pointer;
     display: inline-block;
     border: 0;
@@ -136,7 +121,7 @@ hr{
 .cards-banner-two{
     width: 100%;
     height: 350px;
-    background: url('../img/verduras.jpg') no-repeat center center/cover;
+    background: url('../img/verduras.jpg') no-repeat center center/cover ;
     margin-bottom: 40px;
 }
 
@@ -152,31 +137,6 @@ hr{
 .cards-banner-two .content h2{
     color: white;
 
-}
-/* Social*/
-.social {
-    margin: 50px;
-    
-}
-.social p{
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
-
-}
-
-.links {
-    display: flex;
-    align-items: center;
-     justify-content: center;
-}
-
-.links a{
-    margin: 0 30px;
-}
-
-.links a i{
-    font-size: 3rem;
 }
 
 @media (max-width:700px){

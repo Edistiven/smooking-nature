@@ -18,7 +18,7 @@
     margin: 0 auto;
 }
 
-.footer-container h2{
+.footer-container h5{
     color: #3B3B3B;
 }
 
@@ -30,7 +30,7 @@
     font-size: 1.2rem;
 }
 .footer{
-    background: #3B3B3B;
+    background: #343A40;
     color: white;
     font-size: 12px;
     padding: 20px 0;

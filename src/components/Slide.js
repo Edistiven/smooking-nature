@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from '@farbenmeer/react-spring-slider';
 
-import fruits from '../img/fruits.png'
+import fruits from '../img/verduras.jpg'
 import tomato from '../img/tomato.jpeg';
 import showcase from '../img/showcase2.jpg';
 

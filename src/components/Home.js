@@ -21,8 +21,9 @@ export default function Home() {
                 
                  <header className="showcase">
                      <Slide></Slide>
-                     
                  </header>
+
+                 <hr></hr>
 
                  <div className="news-cards2">
                          <div>
@@ -43,36 +44,45 @@ export default function Home() {
                          </div>
 
                      </div>
+                     <hr></hr>
                      <br/>
-                     <h2><i className="fas fa-apple-alt"></i> Nuestros Productos</h2>
+                     <h2> - Nuestros Productos</h2>
                      <div className="news-cards">
 
-                         <div>
-                             <img src={tomato} alt="Img 1" />
+                         <div className="card1">
+                             <div className="card-container">
+                             <img src={tomato} alt="Img 1" className="card-img"/>
                              <h4>Tomate.</h4>
                              <p>$ 2.09</p>
                              <Link to="/" >Mas info. <i className="fas fa-angle-double-right"></i></Link>
+                             </div>
                          </div>
 
-                         <div>
-                             <img src={tomato} alt="Img 1" />
+                         <div className="card1">
+                             <div className="card-container"> 
+                             <img src={tomato} alt="Img 2" className="card-img"/>
                              <h4>Tomate.</h4>
                              <p>$ 2.09</p>
                              <Link to="/" >Mas info. <i className="fas fa-angle-double-right"></i></Link>
+                             </div>
                          </div>
 
-                         <div>
-                             <img src={tomato} alt="Img 1" />
+                         <div className="card1">
+                            <div className="card-container">
+                             <img src={tomato} alt="Img 3" className="card-img" />
                              <h4>Tomate.</h4>
                              <p>$ 2.09</p>
                              <Link to="/" >Mas info. <i className="fas fa-angle-double-right"></i></Link>
+                             </div>
                          </div>
 
-                         <div>
-                             <img src={tomato} alt="Img 1" />
+                         <div className="card1">
+                            <div className="card-container"> 
+                             <img src={tomato} alt="Img 1" className="card-img"/>
                              <h4>Tomate.</h4>
                                 <p>$ 2.09</p>
                              <Link to="/" >Mas info. <i className="fas fa-angle-double-right"></i></Link>
+                             </div>
                          </div>
 
                      </div>
@@ -82,7 +92,7 @@ export default function Home() {
 
                              <h2>¿Desea hacernos alguna consulta?</h2>
                              <p>Para mejorar nuestro servicio nos contactamos directamente con usted para cualquier información.</p>
-                             <Link to="/contact" className="btn">Click Aqui <i className="fas fa-angle-double-right"></i> </Link>
+                             <Link to="/smooking-nature/contact" className="btn">Click Aqui <i className="fas fa-angle-double-right"></i> </Link>
                          </div>
                      </section>
              </div>

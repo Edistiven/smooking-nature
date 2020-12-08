@@ -10,18 +10,19 @@ export default function About() {
     return (
         <div>
             <Navegation></Navegation>
+            <div className="container mt-1" >
+                <div className="navbar2"> <p><i className="fas fa-home"></i> {'>'} Acerca de Nosotros</p></div>
 
-            <div className="container mt-4" >
                 <div className="row">
                     <div className="col"> 
                         <div className="panel">
-                        <div className="panel-heading"><h3>¿Quiénes somos? </h3></div>
+                        <div className="panel-heading"><h5> <b>¿Quiénes somos? </b></h5></div>
                         <br/>
                         <ImageShadow src={tomato} shadowHover className="about-img" />
                         <br/>
 
                         <div className="panel-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis maiores amet assumenda, repudiandae fuga, quaerat id laborum numquam repellendus officia perferendis doloremque quam corporis non perspiciatis eligendi? Sint quos amet maxime aliquam! Consequatur quidem recusandae amet eos non quibusdam architecto, rerum dolorem facere minima a sequi sapiente explicabo possimus vel ratione dicta expedita adipisci quisquam repellat. Rem soluta dignissimos nobis obcaecati veniam vitae iusto aperiam, voluptatibus, eum provident non sunt facilis doloremque tempore? Similique quas ipsam voluptates maiores deleniti, fuga ipsum laudantium sapiente repellendus nemo animi maxime quo quibusdam exercitationem? Quasi, eius. Quis repellendus pariatur quae, aliquam voluptatum expedita nobis.</div>
-                        <div className="panel-heading"><h3>Acerca de Nosotros</h3></div>
+                        <div className="panel-heading"><h5><b>Acerca de Nosotros </b></h5></div>
                         <br/>
                         <ImageShadow src={tomato} shadowHover className="about-img" />
                         <br/>

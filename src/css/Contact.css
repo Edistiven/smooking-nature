@@ -1,0 +1,13 @@
+.col-sm-4{
+    text-align: justify;
+ }
+.panel-header{
+    padding: 15px;
+    background: rgb(83, 82, 82 ,0.2);
+ }
+@media (max-width:700px){
+    .col-sm-4{
+       text-align: justify;
+    }
+
+}

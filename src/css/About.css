@@ -2,6 +2,12 @@
     text-align: justify;
     
 }
+.navbar2{
+    background: white;
+    padding: 5px;
+    text-align: left;
+    
+}
 
 .panel{
     width: 100%;
@@ -9,7 +15,7 @@
 
 .panel .panel-heading{
     padding: 15px;
-    background: rgb(83, 82, 82 ,0.3);
+    background: rgb(83, 82, 82 ,0.2);
 }
 
 .panel .panel-body{
@@ -39,6 +45,5 @@
     .panel{
         width: 100%;
     }
-   
 
 }

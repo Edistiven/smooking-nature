@@ -37,10 +37,11 @@ body{
     font-size: 15px;
     border: 1px solid white ;
     margin: 10px 0;
-} 
+    
+}
 
-.btn:hover{
-    opacity: .5;
+.btn-card-two:hover{
+    opacity: .9;
 }
 
 .showcase h2, .showcase p{
@@ -53,8 +54,9 @@ body{
 .news-cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 25px; /* espaciado entre columnas*/
-    margin: 20px 0;
+    gap: 10px; /* espaciado entre columnas*/
+    margin: 15px 0;
+    padding: 2%;
 }
 .news-cards2{
     display: grid;
@@ -73,14 +75,14 @@ body{
 }
 
 .card1{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     transition: 0.3s;
-    width: 300px;
+    width: 250px;
     
 }
 
 .card1:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
   }
 .card1 .card-container{
     padding: 2px 16px;
@@ -89,6 +91,10 @@ body{
     margin-top: 10%;
     padding: 2px 16px;
     object-fit: cover;
+    padding: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 hr{
     border: 1px solid red;

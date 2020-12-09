@@ -1,26 +1,120 @@
-.slide {
-	background-color: red;
-	margin: 0 4px;
-    opacity: 0.5;
-}
-
-.arrow{
-        border: 1px solid black;
-        padding: 1em;
-        background-color:blanchedalmond  
-}
-
-.slide-img{
+.carousel  .carousel-item .slide-img{
+    height: 425px;
     width: 100%;
     object-fit: cover;
 }
 
-@media (max-width:700px){
+.carousel-caption{
+    color: black;
+    font-size: 150%;
+    text-align: left;
+    top: 55%;
+    left: 6%;
+}
+.carousel-control-prev {
+    background: rgb(14, 13, 13, 0.5);
+    width: 5%;
+}
+
+.carousel-control-next{
+    background: rgb(14, 13, 13, 0.5);
+    width: 5%;
+}
+
+.carousel-control-prev i{
+    font-size: 3rem;
+}
+
+.carousel-control-next{
+    font-size: 3rem;
+}
+
+@media (max-width:800px){
+    .carousel-caption{
+        color: black;
+        font-size: 100%;
+        text-align: left;
+        top:60%;
+        left: 6%;
+    }
+
+    .carousel-control-prev {
+        background: rgba(2, 2, 2, 0.5);
+        width: 10%;
+    }
+
+    .carousel-control-next{
+        background: rgba(10, 10, 10, 0.5);
+        width: 10%;
+    }
+
+    .carousel-control-prev i{
+        font-size: 2rem;
+    }
+
+    .carousel-control-next{
+        font-size: 2rem;
+    }
+}
+@media (max-width:600px){
     
-    .slide-img{
-        height: 100%;
-        width: 100%;
+    .carousel-caption{
+        background: red;
+        left: 50px;
+        height: 150px;
+        font-size: 300%;
+    }
+
+    .carousel  .carousel-item .slide-img{
+        height: 425px;
+        width: 500px;
+        object-fit: cover; 
+    }
+
+    .carousel-control-prev {
+        background: rgb(14, 13, 13, 0.5);
+        width: 8%;
+    }
+
+    .carousel-control-next{
+        background: rgb(14, 13, 13, 0.5);
+        width: 8%;
+    }
+
+    .carousel-control-prev i{
+        font-size: 3rem;
+    }
+
+    .carousel-control-next{
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width:500px){
+
+    .carousel  .carousel-item .slide-img{
+        height: 430px;
+        width: 400px;
         object-fit: cover;
+    }
+
+    .carousel-control-prev {
+        background: rgb(14, 13, 13, 0.5);
+        width: 15%;
+    }
+    
+    .carousel-control-next{
+        background: rgb(14, 13, 13, 0.5);
+        width: 15%;
+    }
+    
+    .carousel-control-prev i{
+        font-size: 2rem;
+    }
+    
+    .carousel-control-next{
+        font-size: 2rem;
     }
 
 }

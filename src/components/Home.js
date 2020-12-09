@@ -18,9 +18,7 @@ export default function Home() {
                  <header className="showcase">
                      <Slide></Slide>
                  </header>
-
                  <hr></hr>
-
                  <div className="news-cards2">
                          <div>
                              <i className="fas fa-truck"></i>

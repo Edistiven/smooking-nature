@@ -1,0 +1,7 @@
+.logotipo{
+    width: 50px;
+}
+
+.logotipo:hover{
+    opacity: 0.3;
+}

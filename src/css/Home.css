@@ -145,12 +145,33 @@ hr{
 
 }
 
+@media (max-width:1000px){
+
+    .menu-btn{
+        display: block;
+    }
+    .news-cards {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+
+    .news-cards{
+        
+        padding: 50px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        
+    }
+
+}
+
 @media (max-width:700px){
 
     .menu-btn{
         display: block;
     }
     .news-cards {
+        padding: 20px;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
     }

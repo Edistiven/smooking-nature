@@ -1,4 +1,9 @@
 .img-product{
-    height: 50%;
-    width: 50%;
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.img-product:hover{
+    opacity: 0.5;
 }

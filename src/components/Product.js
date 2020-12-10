@@ -1,5 +1,6 @@
 import React from 'react'
 import Navegation from '../components/Navigation'
+import Footer from '../components/Footer'
 import tomato from '../img/tomato.jpeg';
 import '../css/Product.css';
 
@@ -11,7 +12,16 @@ export default function Product() {
             <div className="navbar2"> <p><i className="fas fa-archive"></i> {'>'} Productos</p></div>
 
                 <div className="row">
-                    <div className="col-md-4">
+
+                <div className="col-md-3">
+                    <div className="card">
+                        <div className="card-header">
+                                <b>Categorias</b>
+                        </div>
+                    </div>
+                </div>
+
+                    <div className="col-md-3">
                         <div className="thumbnail">
                         <a href={tomato} data-toggle="modal" data-target="#exampleModalCenter">
                             <img src={tomato} alt="Lights" className="img-product" />
@@ -21,7 +31,7 @@ export default function Product() {
                         </a>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-3">
                         <div className="thumbnail">
                         <a href={tomato} data-toggle="modal" data-target="#exampleModalCenter">
                             <img src={tomato} alt="Nature"  className="img-product"/>
@@ -31,7 +41,7 @@ export default function Product() {
                         </a>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-3">
                         <div className="thumbnail">
                         <a href={tomato} data-toggle="modal" data-target="#exampleModalCenter">
                             <img src={tomato} alt="Fjords"  className="img-product" />
@@ -65,6 +75,8 @@ export default function Product() {
                 </div>
      
             </div>
+
+            <Footer></Footer>
             </div> 
        
     )

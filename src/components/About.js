@@ -10,13 +10,14 @@ export default function About() {
     return (
         <div>
             <Navegation></Navegation>
-            <div className="container mt-1" >
-                <div className="navbar2"> <p><i className="fas fa-home"></i> {'>'} Acerca de Nosotros</p></div>
+            <div className="container mt-2" >
+                <div className="panel-header"><p><i className="fas fa-home"></i> {'>'} ¿Quiénes Somos?</p></div>
+                <hr/>
 
                 <div className="row">
                     <div className="col"> 
                         <div className="panel">
-                        <div className="panel-heading"><h5> <b>¿Quiénes somos? </b></h5></div>
+                        <div className="panel-heading"><h5> <b> Acerca de Nosotros </b></h5></div>
                         <br/>
                         <ImageShadow src={tomato} shadowHover className="about-img" />
                         <br/>

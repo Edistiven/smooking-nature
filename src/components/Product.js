@@ -8,15 +8,17 @@ export default function Product() {
     return (
         <div>
             <Navegation></Navegation>
-            <div className="container mt-1"> 
-            <div className="navbar2"> <p><i className="fas fa-archive"></i> {'>'} Productos</p></div>
+            <div className="container mt-2"> 
+            <div className="panel-header"><p><i className="fas fa-archive"></i> {'>'} Productos</p></div>
 
+            <hr/>
                 <div className="row">
 
                 <div className="col-md-3">
-                    <div className="card">
-                        <div className="card-header">
-                                <b>Categorias</b>
+                    <div className="panel">   
+                            <b>CATEGORIAS</b> <a className="product-link" data-toggle="collapse" data-target="#demo"> <i className="fas fa-plus-circle"></i></a> 
+                            <div id="demo" className="collapse">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ad.</p>
                         </div>
                     </div>
                 </div>
@@ -25,9 +27,7 @@ export default function Product() {
                         <div className="thumbnail">
                         <a href={tomato} data-toggle="modal" data-target="#exampleModalCenter">
                             <img src={tomato} alt="Lights" className="img-product" />
-                            <div className="caption">
-                            <p>Lorem ipsum...</p>
-                            </div>
+                            
                         </a>
                         </div>
                     </div>
@@ -35,9 +35,6 @@ export default function Product() {
                         <div className="thumbnail">
                         <a href={tomato} data-toggle="modal" data-target="#exampleModalCenter">
                             <img src={tomato} alt="Nature"  className="img-product"/>
-                            <div className="caption">
-                            <p>Lorem ipsum...</p>
-                            </div>
                         </a>
                         </div>
                     </div>
@@ -45,9 +42,6 @@ export default function Product() {
                         <div className="thumbnail">
                         <a href={tomato} data-toggle="modal" data-target="#exampleModalCenter">
                             <img src={tomato} alt="Fjords"  className="img-product" />
-                            <div className="caption">
-                            <p>Lorem ipsum...</p>
-                            </div>
                         </a>
                         </div>
                     </div>

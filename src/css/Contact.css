@@ -2,16 +2,25 @@
     text-align: justify;
  }
 .panel-header{
-    padding: 15px;
-    background: rgb(83, 82, 82 ,0.2);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: left;
+    margin-bottom: -20px;
  }
+ .panel-header :hover{
+    opacity: 0.5;
+ }
+
  .contact-map{
     height: 250px;
     width: 350px;
     margin-top: 5px;
     border: black;
 }
-
+/* Navbar 2*/
+.navegation-bar{
+    background-color: rgba(87, 80, 80, 0.1);
+}
 @media (max-width:1100px){
     .contact-map{
         height: 200px;

@@ -2,8 +2,23 @@
     height: 200px;
     width: 250px;
     object-fit: cover;
+    margin-bottom: 25px;
 }
 
 .img-product:hover{
     opacity: 0.5;
 }
+
+.panel{
+    background-color: #fff;
+    padding: 5%;
+    margin-bottom: 15px;
+}
+.product-link i{
+    padding: 2%;
+    float: right;
+}
+.product-link i:hover{
+    cursor: pointer;
+}
+

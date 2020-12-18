@@ -2,88 +2,50 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import Navegation from '../components/Navigation';
-import Slide from '../components/Slide';
 import Footer from '../components/Footer';
 
 import '../css/Home.css';
 import tomato from '../img/tomato.jpeg';
+import natural from '../img/natural.png';
+import banner from '../img/banner.jpg';
 
 export default function Home() {
 
     return (
         <div>
-                 <Navegation></Navegation>
-             <div className="container-home">
-                
+            <Navegation/>
+
+            <section className="sec1">
+            
+                <div className="center">
+                    <p>The Smooking Nature</p>
+                </div>
+               
+            </section>
+
+            <div className="container-home">
                  <header className="showcase">
-                     <Slide></Slide>
+                    <img src={banner} alt="banner"></img>
                  </header>
                  <hr></hr>
+
                  <div className="news-cards2">
                          <div>
-                             <i className="fas fa-truck"></i>
-                             <h3>ENVÍO URGENTE</h3>
-                             <p> Solo envíos a peninsula</p> 
+                             <h3>SMOOKING NATURE</h3>
+                             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quia rerum minus atque iste magnam labore? Veritatis, culpa mollitia! Aperiam dolores illo voluptatem beatae, nisi in repudiandae maiores. Reiciendis, dicta mollitia. Error itaque tenetur maxime corrupti sapiente amet optio nam, voluptas deleniti enim placeat dolorum. Delectus at ipsa natus, necessitatibus harum ullam atque enim fuga accusantium corporis praesentium. A nihil suscipit obcaecati id numquam nostrum soluta maiores alias optio quaerat explicabo eius totam nemo non nisi, eligendi voluptatem cupiditate harum ipsa mollitia. Accusamus cupiditate, molestiae ut eaque dicta nisi animi excepturi quod vero est. Doloribus consequatur aspernatur eos iusto dolorum?</p> 
                          </div>
 
-                         <div>
-                             <i className="fas fa-leaf"></i>
-                             <h3>100% FRESCO</h3>
-                             <p>Frescura y calidad garantizada</p> 
-                         </div>
-                         <div>
-                             <i className="fas fa-phone"></i>
-                             <h3> 0991234567 / 0915432765</h3>
-                             <p> ¿Alguna Duda? Contáctenos</p> 
+                         <div className="card-right">
+                             <img src={natural} alt="natural"></img>
                          </div>
 
                      </div>
                      <hr></hr>
-                     <br/>
-                     <h3> Nuestros Productos</h3>
-                     <div className="news-cards">
-
-                         <div className="card1">
-                             <div className="card-container">
-                             <img src={tomato} alt="Img 1" className="card-img"/>
-                             <h4>Tomate.</h4>
-                             <p>$ 2.09</p>
-                             <Link to="/" >Mas info. <i className="fas fa-angle-double-right"></i></Link>
-                             </div>
-                         </div>
-
-                         <div className="card1">
-                             <div className="card-container"> 
-                             <img src={tomato} alt="Img 2" className="card-img"/>
-                             <h4>Tomate.</h4>
-                             <p>$ 2.09</p>
-                             <Link to="/" >Mas info. <i className="fas fa-angle-double-right"></i></Link>
-                             </div>
-                         </div>
-
-                         <div className="card1">
-                            <div className="card-container">
-                             <img src={tomato} alt="Img 3" className="card-img" />
-                             <h4>Tomate.</h4>
-                             <p>$ 2.09</p>
-                             <Link to="/" >Mas info. <i className="fas fa-angle-double-right"></i></Link>
-                             </div>
-                         </div>
-
-                         <div className="card1">
-                            <div className="card-container"> 
-                             <img src={tomato} alt="Img 1" className="card-img"/>
-                             <h4>Tomate.</h4>
-                                <p>$ 2.09</p>
-                             <Link to="/" >Mas info. <i className="fas fa-angle-double-right"></i></Link>
-                             </div>
-                         </div>
-
-                     </div>
+                     <br/> 
 
                      <section className="cards-banner-two">
                          <div className="content">
-                             <h2>¿Desea hacernos alguna consulta?</h2>
+                             <h2 className="content-title">¿Desea hacernos alguna consulta?</h2>
                              <p>Para mejorar nuestro servicio nos contactamos directamente con usted para cualquier información.</p>
                              <Link to="/smooking-nature/contact" className="btn-card-two">Click Aqui <i className="fas fa-angle-double-right"></i> </Link>
                          </div>

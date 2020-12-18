@@ -1,7 +1,7 @@
 import React from 'react'
 import Navegation from '../components/Navigation'
 import Footer from '../components/Footer'
-import tomato from '../img/tomato.jpeg';
+// import tomato from '../img/tomato.jpeg';
 import '../css/Product.css';
 
 export default function Product() {
@@ -14,7 +14,7 @@ export default function Product() {
             <hr/>
                 <div className="row">
 
-                <div className="col-md-3">
+                {/* <div className="col-md-3">
                     <div className="panel">   
                             <b>CATEGORIAS</b> <a className="product-link" data-toggle="collapse" data-target="#demo"> <i className="fas fa-plus-circle"></i></a> 
                             <div id="demo" className="collapse">
@@ -25,7 +25,7 @@ export default function Product() {
 
                     <div className="col-md-3">
                         <div className="thumbnail">
-                        <a href={tomato} data-toggle="modal" data-target="#exampleModalCenter">
+                        <a href={tomato} data-toggle="modal" alt="img3" data-target="#exampleModalCenter">
                             <img src={tomato} alt="Lights" className="img-product" />
                             
                         </a>
@@ -33,19 +33,19 @@ export default function Product() {
                     </div>
                     <div className="col-md-3">
                         <div className="thumbnail">
-                        <a href={tomato} data-toggle="modal" data-target="#exampleModalCenter">
+                        <a href={tomato} data-toggle="modal" alt="img1" data-target="#exampleModalCenter">
                             <img src={tomato} alt="Nature"  className="img-product"/>
                         </a>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="thumbnail">
-                        <a href={tomato} data-toggle="modal" data-target="#exampleModalCenter">
-                            <img src={tomato} alt="Fjords"  className="img-product" />
+                        <a href={tomato} data-toggle="modal" alt="img2" data-target="#exampleModalCenter">
+                            <img src={tomato} alt="example"  className="img-product" />
                         </a>
                         </div>
-                    </div>
-                </div>
+                    </div>*/}
+                </div> 
 
 
                 <div className="modal fade" id="exampleModalCenter" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

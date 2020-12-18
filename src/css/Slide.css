@@ -1,3 +1,7 @@
+.slide{
+    position: relative;
+}
+
 .carousel  .carousel-item .slide-img{
     height: 425px;
     width: 100%;

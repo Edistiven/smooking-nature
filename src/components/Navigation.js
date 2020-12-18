@@ -6,32 +6,19 @@ import '../css/Navigation.css';
 
 export default function Navigation() {
     return (
+    <nav >
+        <div className="logo">
+            <img src={logo} alt="logo"/>
+        </div>
         
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
-              <div className="container">
-                <Link className="navbar-brand" to="/smooking-nature/"> <img src={logo} className="logotipo" alt="logo"></img></Link>
-                  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                  </button>
-
-                <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul className="navbar-nav navbar-right">
-                    <li className="nav-item">
-                      <Link className="nav-link" to="/smooking-nature/about">¿QUIÉNES SOMOS?</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link" to="/smooking-nature/contact">CONTACTOS</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link" to="/smooking-nature/product">PRODUCTOS</Link>
-                    </li>
-                  </ul>
-                </div>
-    </div>
-  </nav>
-
-
-
+        <ul>
+              <li><Link to="/smooking-nature/" className="link">Inicio</Link></li>
+              <li><Link to="/smooking-nature/about" className="link">Acerca</Link></li>
+              <li><Link to="/smooking-nature/product" className="link">Productos</Link></li>
+              <li><Link to="/smooking-nature/contact" className="link">Contactos</Link></li>
+        </ul>
+        
+    </nav>
        
     )
 }

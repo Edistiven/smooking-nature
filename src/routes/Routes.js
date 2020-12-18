@@ -4,6 +4,8 @@ import Home from '../components/Home'
 import Product from '../components/Product'
 import Contact from '../components/Contact'
 import About from '../components/About'
+import FormImg from '../components/FormImages'
+
 
 function Routes() {
   return (
@@ -14,7 +16,7 @@ function Routes() {
         <Route exact path="/smooking-nature/product" component={Product}></Route>
         <Route exact path="/smooking-nature/contact" component={Contact}></Route>
         <Route exact path="/smooking-nature/about" component={About}></Route>
-        {/* <Route exact path="/user" component={User}></Route>  */}
+        <Route exact path="/smooking-nature/formimg" component={FormImg}></Route> 
         
       </Switch>
   </Router>

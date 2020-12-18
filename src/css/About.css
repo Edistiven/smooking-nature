@@ -1,48 +1,14 @@
-.col{
+.panel-header{
+    font-size: 15px;
+    padding: 3%;
+    color:#FF8207;
+}
+hr{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.about-container{
+    padding: 3%;
     text-align: justify;
-    
-}
-.navbar2{
-    background: white;
-    padding: 5px;
-    text-align: left;
-    
-}
-
-.panel{
-    width: 100%;
-}
-
-.panel .panel-heading{
-    padding: 15px;
-}
-
-.panel .panel-body{
-    column-count: 2;
-    padding: 15px;
-}
-
-.panel .panel-footer{
-    padding: 15px;
-}
-
-.col2{
-    width: 30%;
-    background: seagreen;
-    color: black;
-
-}
-
-.about-img{
-    padding: 1%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media (max-width:700px){
-    .panel{
-        width: 100%;
-    }
-
 }

@@ -2,10 +2,10 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import Navegation from '../components/Navigation';
+import Slide from '../components/Slide';
 import Footer from '../components/Footer';
 
 import '../css/Home.css';
-import tomato from '../img/tomato.jpeg';
 import natural from '../img/natural.png';
 import banner from '../img/banner.jpg';
 
@@ -27,7 +27,7 @@ export default function Home() {
                  <header className="showcase">
                     <img src={banner} alt="banner"></img>
                  </header>
-                 <hr></hr>
+                 <hr/>
 
                  <div className="news-cards2">
                          <div>
@@ -40,9 +40,12 @@ export default function Home() {
                          </div>
 
                      </div>
-                     <hr></hr>
-                     <br/> 
+                  
+                     <hr/>
 
+                    <Slide></Slide>
+                     
+                     <hr/>
                      <section className="cards-banner-two">
                          <div className="content">
                              <h2 className="content-title">¿Desea hacernos alguna consulta?</h2>
@@ -50,9 +53,11 @@ export default function Home() {
                              <Link to="/smooking-nature/contact" className="btn-card-two">Click Aqui <i className="fas fa-angle-double-right"></i> </Link>
                          </div>
                      </section>
-             </div>
-                 <Footer></Footer>
-           
+
+            
+                        
+            </div>
+                <Footer></Footer>           
         </div>
     )
 }

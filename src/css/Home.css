@@ -47,13 +47,6 @@ body{
 }
 /* News Cards*/
 
-.news-cards{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px; /* espaciado entre columnas*/
-    margin: 15px 0;
-    padding: 2%;
-}
 .news-cards2 .card-right img{
     height: 100%;
     width: 80%;
@@ -75,29 +68,6 @@ body{
 hr{
     border: 1px solid #289607;
 }
-
-.news-cards img{
-    width: 90%;
-    height: 180px;
-}
-.news-cards h4{
-    color: red;
-    font-size: 20px;
-    margin: 10px 0;
-
-}
-.news-cards a{
-    padding: 10px 0;
-    color: #262626;
-    text-transform: uppercase;
-    display: inline-block;
-    font-weight: bold;
-}
-
-.news-cards a:hover{
-    text-decoration: underline;
-}
-
 
 /* Cards Banner two*/
 .cards-banner-two{

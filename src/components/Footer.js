@@ -5,7 +5,6 @@ export default function Footer() {
     return (
         <div>
              <a href="https://api.whatsapp.com/send?phone=593998187445&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20." className="float" rel="noopener noreferrer" target="_blank">
-               
                 <i className="fab fa-whatsapp my-float"></i>
             </a>
 

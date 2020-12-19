@@ -11,7 +11,7 @@ export default function Slide() {
           <img src={natural} alt="Cinque Terre"/>
         </a>
         <div className="desc">
-          <h4 class="slide-title">Social</h4>
+          <h4 className="slide-title">Social</h4>
           <p className="slide-p">Follow our social media accounts for news, updates and events.</p>
           </div>
       </div>

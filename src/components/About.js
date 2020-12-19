@@ -2,9 +2,7 @@ import React from 'react'
 import Navegation from '../components/Navigation'
 import Footer from '../components/Footer'
 import '../css/About.css';
-import ImageShadow from 'react-image-shadow';
 import 'react-image-shadow/assets/index.css';
-import tomato from '../img/tomato.jpeg';
 
 
 export default function About() {

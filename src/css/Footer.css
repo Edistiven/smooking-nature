@@ -57,13 +57,12 @@
 .float:hover {
 	text-decoration: none;
 	color: #25d366;
-  background-color:#fff;
+    background-color:#fff;
 }
 
 .my-float{
 	margin-top:auto;
 }
-
 
 @media (max-width:700px){
    
@@ -73,7 +72,7 @@
     }
     .footer-container-page ul{
         list-style:none;
-        }
+    }
 }
 
 @media (max-width:500px){

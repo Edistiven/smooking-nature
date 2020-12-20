@@ -22,6 +22,7 @@ export default function Home() {
                 <header className="showcase">
                     <img src={banner} alt="banner"></img>
                 </header>
+                <br/>   
                 <hr/>
 
                 <div className="news-cards2">
@@ -38,6 +39,7 @@ export default function Home() {
                 <Slide></Slide>
                      
                 <hr/>
+                <br/>
                 <section className="cards-banner-two">
                     <div className="content">
                         <h2 className="content-title">¿Desea hacernos alguna consulta?</h2>

@@ -29,8 +29,8 @@ body{
 }
 
 .btn-card-two {
+    text-decoration: none;
     cursor: pointer;
-    display: inline-block;
     border: 0;
     font-weight: bold;
     padding: 10px 20px;
@@ -66,7 +66,11 @@ body{
 }
 
 hr{
+
     border: 1px solid #289607;
+    width: 225px;
+
+    
 }
 
 /* Cards Banner two*/

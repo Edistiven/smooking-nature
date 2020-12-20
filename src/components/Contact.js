@@ -3,6 +3,8 @@ import Navegation from '../components/Navigation'
 import Footer from '../components/Footer'
 import '../css/Contact.css';
 
+import social from '../img/social-media.jpg';
+
 export default function Contact() {
 
     return (
@@ -14,22 +16,17 @@ export default function Contact() {
             <div className="contact-content">
                     <div className="contact-gallery">
                         <div className="contact-gallery-col"> 
-                        <h4>Redes Sociales</h4>
+                        <h4>Contactos</h4>
                             <p>Asegurate de seguirnos en nuestras redes sociales para no perderte ningun contenido que publicamos <b>#smooking-nature</b>.</p>
-                            <p>Siguenos a traves de nuestro instagram dando clic aqui -> 
-                                <button type="submit" className="btn-card-two">Follow</button>
-                                </p>
+                            <p>Siguenos a traves de nuestro <b>INSTAGRAM </b>
+                                <a type="submit" href="https://www.instagram.com/edistiven1/" target="_blank">Clic Aqui.</a></p>
+                        
+                            <p>Si tienes alguna pregunta puedes contactarte directamente con nosotros a traves de nuestro <b>WHATSAPP</b> dando <a href="https://api.whatsapp.com/send?phone=593998187445&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20." rel="noopener noreferrer" target="_blank">Clic Aqui.</a>
+                            
+                            </p>
+
+                            <img src={social} alt="redes-sociales" className="redes-sociales"></img>
                         </div>
-                    
-
-                            <div className="contact-gallery-col"> 
-                                <h4>Información de Contacto</h4>
-                            <p><i className="fas fa-phone"></i><b> Teléfono:</b> (02) 3411730</p>
-
-                            <p><i className="fab fa-whatsapp"></i><b> Whatsapp:</b> 0995154854</p>
-
-                            </div>  
-
                 </div>   
             </div>
             <br/>

@@ -7,7 +7,7 @@
     box-shadow: 0 0 10px rgba(0,0,0,.4);
     margin-bottom: 55px;
     padding: 50px;
-    font-family: ;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .panel-header{
@@ -28,13 +28,12 @@
 } 
 .contact-gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr; 
     gap: 40px; 
 }
 
- .contact-map{
-    height: 250px;
-    width: 350px;
-    margin-top: 5px;
-    border: black;
+.contact-gallery-col .redes-sociales{
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
 }

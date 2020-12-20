@@ -109,18 +109,21 @@ hr{
     background: url(../img/medicine.jpg);
     background-size: cover;    
 }
-.center {
-	text-align: center;
-	height: 100vh;
-	padding: 375px;
-	font-size: 45px;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	text-transform: uppercase;	
-	color: #000;
-  }
-  .center p:hover {
-	opacity: 0.5;
-  }
+.sec-content {
+    background: rgb(12, 8, 8 ,.5);
+    height: 100vh;    
+}
+
+.sec-content .title-sec1{
+
+    padding-top: 30%;
+    padding-left: 5%;               
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
 
 @media (max-width:700px){
 
@@ -137,10 +140,10 @@ hr{
     .footer-links .footer-container{
         grid-template-columns: repeat(2, 1fr);
     }
+    .sec-content .title-sec1{
+        padding-top: 45%;
+    }
 
-    .center {
-        display: none;
-      }
 }
 
 @media (max-width:500px){
@@ -148,5 +151,19 @@ hr{
         width: 100%;
         padding: 60px 20px;
     }
-
+ 
 }
+
+@media (max-width:400px){
+    .cards-banner-two .content{
+        width: 100%;
+        padding: 60px 20px;
+    }
+ 
+    .sec-content .title-sec1{
+        font-size: 70px;
+        padding-top: 50%;
+        text-align: center;
+    }
+}
+

@@ -14,8 +14,8 @@ export default function Home() {
         <div>
             <Navegation/>
                 <section className="sec1">
-                    <div className="center">
-                        <p>The Smooking Nature</p>
+                    <div className="sec-content">
+                        <p className="title-sec1">The Smooking Nature</p>
                     </div>
                 </section>
             <div className="container-home">

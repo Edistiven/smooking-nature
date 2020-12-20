@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 .contact-container{
     margin: auto;
     background: white;
@@ -6,6 +7,7 @@
     box-shadow: 0 0 10px rgba(0,0,0,.4);
     margin-bottom: 55px;
     padding: 50px;
+    font-family: ;
 }
 
 .panel-header{
@@ -21,6 +23,7 @@
 .contact-content{
     padding: 25px;
     text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
    
 } 
 .contact-gallery {

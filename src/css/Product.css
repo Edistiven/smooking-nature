@@ -52,12 +52,9 @@
 }
 .modal-body img{
 	
-   position:absolute;
-   top:28%;
-   left:10%;
-   margin-top:-25px;
-   margin-left:-25px; 
-   width: 40%;
+   margin-top:15%;
+   margin-left:-3%; 
+   width: 100%;
    object-fit: cover;
 
 }
@@ -76,6 +73,10 @@
 	.modal-body{
 		grid-template-columns: 1fr ;
 	}
+	.modal-body img{
+		margin-top:1%;
+	 
+	 }
 }
 
 @media (max-width:600px){

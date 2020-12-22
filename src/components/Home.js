@@ -15,7 +15,7 @@ export default function Home() {
             <Navegation/>
                 <section className="sec1">
                     <div className="sec-content">
-                        <p className="title-sec1">The Smooking Nature</p>
+                        <p className="title-sec1">Smooking Nature</p>
                     </div>
                 </section>
             <div className="container-home">

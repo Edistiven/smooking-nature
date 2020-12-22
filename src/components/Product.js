@@ -48,7 +48,7 @@ export default function Product() {
                     </div>
 
                     <div>
-                        <h4>Tomate</h4>
+                        <h4>Ejemplos</h4>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid totam perferendis quos ut fugiat repellendus numquam, optio placeat? Id odio debitis natus ipsa maxime ut. Magni reiciendis et non assumenda iure nostrum vero veniam. Eligendi, laborum! Tempore accusantium consequuntur autem?</p>
                         <hr/>
                         <h4>Descripción</h4>

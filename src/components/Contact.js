@@ -19,7 +19,7 @@ export default function Contact() {
                         <h4>Contactos</h4>
                             <p>Asegurate de seguirnos en nuestras redes sociales para no perderte ningun contenido que publicamos <b>#smooking-nature</b>.</p>
                             <p>Siguenos a traves de nuestro <b>INSTAGRAM </b>
-                                <a type="submit" href="https://www.instagram.com/edistiven1/" target="_blank">Clic Aqui.</a></p>
+                                <a type="submit" href="https://www.instagram.com/edistiven1/" target="_blank"  rel="noopener noreferrer" >Clic Aqui.</a></p>
                         
                             <p>Si tienes alguna pregunta puedes contactarte directamente con nosotros a traves de nuestro <b>WHATSAPP</b> dando <a href="https://api.whatsapp.com/send?phone=593998187445&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20." rel="noopener noreferrer" target="_blank">Clic Aqui.</a>
                             

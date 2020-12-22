@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/smooking-nature/static/css/main.44fd76d1.chunk.css",
-    "main.js": "/smooking-nature/static/js/main.b8d1d36c.chunk.js",
-    "main.js.map": "/smooking-nature/static/js/main.b8d1d36c.chunk.js.map",
+    "main.css": "/smooking-nature/static/css/main.c5e01915.chunk.css",
+    "main.js": "/smooking-nature/static/js/main.340f6fbe.chunk.js",
+    "main.js.map": "/smooking-nature/static/js/main.340f6fbe.chunk.js.map",
     "runtime-main.js": "/smooking-nature/static/js/runtime-main.415567df.js",
     "runtime-main.js.map": "/smooking-nature/static/js/runtime-main.415567df.js.map",
     "static/css/2.cba4d4ac.chunk.css": "/smooking-nature/static/css/2.cba4d4ac.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.7a408766.chunk.js.map": "/smooking-nature/static/js/2.7a408766.chunk.js.map",
     "index.html": "/smooking-nature/index.html",
     "static/css/2.cba4d4ac.chunk.css.map": "/smooking-nature/static/css/2.cba4d4ac.chunk.css.map",
-    "static/css/main.44fd76d1.chunk.css.map": "/smooking-nature/static/css/main.44fd76d1.chunk.css.map",
+    "static/css/main.c5e01915.chunk.css.map": "/smooking-nature/static/css/main.c5e01915.chunk.css.map",
     "static/js/2.7a408766.chunk.js.LICENSE.txt": "/smooking-nature/static/js/2.7a408766.chunk.js.LICENSE.txt",
     "static/media/banner.50fb3482.jpg": "/smooking-nature/static/media/banner.50fb3482.jpg",
     "static/media/logo2.a43308b7.png": "/smooking-nature/static/media/logo2.a43308b7.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.415567df.js",
     "static/css/2.cba4d4ac.chunk.css",
     "static/js/2.7a408766.chunk.js",
-    "static/css/main.44fd76d1.chunk.css",
-    "static/js/main.b8d1d36c.chunk.js"
+    "static/css/main.c5e01915.chunk.css",
+    "static/js/main.340f6fbe.chunk.js"
   ]
 }

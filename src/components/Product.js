@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
 import Navegation from '../components/Navigation'
 import Footer from '../components/Footer'
 import tomato from '../img/tomato.jpeg';
 import '../css/Product.css';
+import { Card } from 'primereact/card';
+import { Button } from 'primereact/button';
 
 export default function Product() {
+   
     return (
         <div>
             <Navegation></Navegation>
@@ -12,25 +15,41 @@ export default function Product() {
             <div className="panel-header"><p><i className="fas fa-archive"></i> {'>'} Productos</p></div>
                 <div className="product-content">
                     <h4>Nuestros Productos</h4>
+
                     <div className="product-gallery">
-                    <div className="product-gallery-col">
-                        <a data-toggle="modal" data-target=".bd-example-modal-lg"> 
-                        <img src={tomato} alt="img1"></img>
-                        <p>Tomate</p>
-                        </a>
+                        <Card className="card-product">
+                        <Button icon="pi pi-eye" className="p-button-secondary p-button-text" data-toggle="modal" data-target=".bd-example-modal-lg"></Button>
+                            <img src={tomato} alt="img1"></img>
+                            <h4>Tomate</h4>
+                            <p>Description</p>
+                            <span>$120.00</span>
+                            
+                            
+                        </Card>
+                            
+                        <Card className="card-product">
+                        <Button icon="pi pi-eye" className="p-button-secondary p-button-text" data-toggle="modal" data-target=".bd-example-modal-lg"></Button>
+                            <img src={tomato} alt="img1"></img>
+                            <h4>Tomate</h4>
+                            <p>Description</p>
+                            <span>$120.00</span>
+                          
+                            
+                        </Card>
+                        
+                        <Card className="card-product">
+                        <Button icon="pi pi-eye" className="p-button-secondary p-button-text" data-toggle="modal" data-target=".bd-example-modal-lg"></Button>
+                            <img src={tomato} alt="img1"></img>
+                            <h4>Tomate</h4>
+                            <p>Description</p>
+                            <span>$120.00</span>
+
+                            
+                        </Card>
+               
                     </div>
-                    <div className="product-gallery-col"> 
-                        <img src={tomato} alt="img1"></img>
-                        <p>Tomate</p>
-                
                     </div>
-                    <div className="product-gallery-col"> 
-                        <img src={tomato} alt="img1"></img>
-                        <p>Tomate</p>
-                
-                    </div>
-                    </div>
-                    </div>
+
             </div>
 
             <div className="modal fade bd-example-modal-lg" id="exampleModalCenter" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

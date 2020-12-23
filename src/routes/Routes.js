@@ -6,6 +6,9 @@ import Contact from '../components/Contact'
 import About from '../components/About'
 import FormImg from '../components/FormImages'
 
+import 'primereact/resources/themes/saga-blue/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
 
 function Routes() {
   return (

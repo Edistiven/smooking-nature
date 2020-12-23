@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 import '../css/Home.css';
 import banner from '../img/banner.jpg';
 
+
 export default function Home() {
 
     return (

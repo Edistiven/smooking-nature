@@ -1,30 +1,32 @@
 {
   "files": {
-    "main.css": "/smooking-nature/static/css/main.c5e01915.chunk.css",
-    "main.js": "/smooking-nature/static/js/main.340f6fbe.chunk.js",
-    "main.js.map": "/smooking-nature/static/js/main.340f6fbe.chunk.js.map",
+    "main.css": "/smooking-nature/static/css/main.0d5bff51.chunk.css",
+    "main.js": "/smooking-nature/static/js/main.3516414c.chunk.js",
+    "main.js.map": "/smooking-nature/static/js/main.3516414c.chunk.js.map",
     "runtime-main.js": "/smooking-nature/static/js/runtime-main.415567df.js",
     "runtime-main.js.map": "/smooking-nature/static/js/runtime-main.415567df.js.map",
-    "static/css/2.cba4d4ac.chunk.css": "/smooking-nature/static/css/2.cba4d4ac.chunk.css",
-    "static/js/2.7a408766.chunk.js": "/smooking-nature/static/js/2.7a408766.chunk.js",
-    "static/js/2.7a408766.chunk.js.map": "/smooking-nature/static/js/2.7a408766.chunk.js.map",
+    "static/css/2.f8b98b93.chunk.css": "/smooking-nature/static/css/2.f8b98b93.chunk.css",
+    "static/js/2.71ec91be.chunk.js": "/smooking-nature/static/js/2.71ec91be.chunk.js",
+    "static/js/2.71ec91be.chunk.js.map": "/smooking-nature/static/js/2.71ec91be.chunk.js.map",
     "index.html": "/smooking-nature/index.html",
-    "static/css/2.cba4d4ac.chunk.css.map": "/smooking-nature/static/css/2.cba4d4ac.chunk.css.map",
-    "static/css/main.c5e01915.chunk.css.map": "/smooking-nature/static/css/main.c5e01915.chunk.css.map",
-    "static/js/2.7a408766.chunk.js.LICENSE.txt": "/smooking-nature/static/js/2.7a408766.chunk.js.LICENSE.txt",
+    "static/css/2.f8b98b93.chunk.css.map": "/smooking-nature/static/css/2.f8b98b93.chunk.css.map",
+    "static/css/main.0d5bff51.chunk.css.map": "/smooking-nature/static/css/main.0d5bff51.chunk.css.map",
+    "static/js/2.71ec91be.chunk.js.LICENSE.txt": "/smooking-nature/static/js/2.71ec91be.chunk.js.LICENSE.txt",
     "static/media/banner.50fb3482.jpg": "/smooking-nature/static/media/banner.50fb3482.jpg",
+    "static/media/primereact.min.css": "/smooking-nature/static/media/color.6441e63a.png",
     "static/media/logo2.a43308b7.png": "/smooking-nature/static/media/logo2.a43308b7.png",
     "static/media/Home.css": "/smooking-nature/static/media/medicine.916a3a67.jpg",
     "static/media/natural.a73cbacb.png": "/smooking-nature/static/media/natural.a73cbacb.png",
     "static/media/planta3.bc98334b.jpg": "/smooking-nature/static/media/planta3.bc98334b.jpg",
+    "static/media/primeicons.css": "/smooking-nature/static/media/primeicons.e61f3495.woff",
     "static/media/social-media.5295320c.jpg": "/smooking-nature/static/media/social-media.5295320c.jpg",
     "static/media/tomato.2ac3697c.jpeg": "/smooking-nature/static/media/tomato.2ac3697c.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.415567df.js",
-    "static/css/2.cba4d4ac.chunk.css",
-    "static/js/2.7a408766.chunk.js",
-    "static/css/main.c5e01915.chunk.css",
-    "static/js/main.340f6fbe.chunk.js"
+    "static/css/2.f8b98b93.chunk.css",
+    "static/js/2.71ec91be.chunk.js",
+    "static/css/main.0d5bff51.chunk.css",
+    "static/js/main.3516414c.chunk.js"
   ]
 }
